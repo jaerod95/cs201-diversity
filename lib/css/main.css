@@ -19,8 +19,8 @@ div, body, html {
 
 .main input {
     width: 50%;
-    margin: 0px auto;
-    border: 5px solid #fff;
+    margin: 10px auto;
+    border: 5px solid #aaa;
     background: #ccc;
     border-radius: 5px;
     opacity: .9;
@@ -95,4 +95,12 @@ margin: 20px auto;
     position: absolute;
     background: #ccc;
     border-radius: 10px;
+}
+.colors div {
+    border-radius: 10px;
+}
+
+button[type='submit'] {
+    border-radius: 5px;
+    height: 20px;
 }
