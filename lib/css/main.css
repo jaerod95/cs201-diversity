@@ -72,16 +72,27 @@ margin: 20px auto;
 
 .man img, .man .colors {
     position: absolute;
-    top: 120vh;
+    top: 110vh;
     left: 200px;
-    height: 800px;
+    height: 500px;
+    border-radius: 10px;
 }
 #body {
-    left: 185px;
-    top: calc(120vh + 9px);
+    left: 190px;
+    top: calc(110vh + 5px);
 }
 .man .colors {
-    min-height: 800px;
-    width: 534px;
-    min-width: 534px;
+    min-height: 500px;
+    width: 333.75px;
+    min-width: 333.75px;
+}
+.chart {
+    height: 500px;
+    padding: 0px 10px;
+    width: 433.75px;
+    top: 110vh;
+    left: 600px;
+    position: absolute;
+    background: #ccc;
+    border-radius: 10px;
 }
