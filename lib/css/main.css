@@ -37,3 +37,18 @@ div, body, html {
     display: flex;
     flex-direction: column;
 }
+.main a {
+margin: 20px auto;    
+}
+.main button {
+    width: 200px;
+}
+
+#diversity {
+    z-index: 1000; background: #333; width: 100%; height: 100vh; margin-top: 100vh;
+    display: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
